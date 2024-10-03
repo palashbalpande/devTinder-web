@@ -5,8 +5,8 @@ import Footer from "./Footer";
 const Body = () => {
   return (
     <div>
-      <Navbar />  
-      <Outlet /> 
+      <Navbar />
+      <Outlet />
       <Footer />
     </div>
   );

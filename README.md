@@ -6,8 +6,16 @@
 - Install DaisyUI
 - Add Navbar component to App.jsx
 - Create a Navbar.jsx separate component file
-- Install react router dom 
-- Create BrowserRouter > Routes > Route=/ Body > RouteChildren 
+- Install react router dom
+- Create BrowserRouter > Routes > Route=/ Body > RouteChildren
 - Create an Outlet in your Body component
 - Create a Footer
-
+- Create a Login page
+- Install axios
+- CORS - install CORS in backend => add middleware to app with configurations: origins, credentials: true {app.use(cors());}
+- Whenever you're making API calls so pass axios => { withCredentials: true }
+- Install react-redux + @reduxjs/toolkit => configureStore => Provider => createSlice => add reducer to store
+- Add redux devtools in chrome
+- Login & check if your data is coming properly in the store
+- Navbar should update as soon as user logs in
+- Refactor our code to add constants file
