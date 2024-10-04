@@ -21,3 +21,4 @@
 - Refactor our code to add constants file
 - You should not be able to access other routes without login 
 - If token is not present, redirect to login page
+- Logout Feature
