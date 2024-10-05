@@ -28,3 +28,4 @@
 - Show Toast Message on profile updates
 - New Page - See all my connections
 - New Page - See all my connection Requests
+- Feature - Accept/Reject Connection Request
