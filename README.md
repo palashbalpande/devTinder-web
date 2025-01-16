@@ -30,3 +30,21 @@
 - New Page - See all my connection Requests
 - Feature - Accept/Reject Connection Request
 - Send/Ignore the user card from the feed
+- Signup New User
+- E2E testing
+
+Body 
+    Navbar
+    Route=/ => Feed
+    Route=/login => Login
+    Route=/connections => Connections
+    Router=/profile => Profile
+
+# Deplyment
+
+- Signup on AWS
+- Launch instance
+- chmod 400 <secret-key-file-name>.pem
+- ssh -i "devTinder-secret.pem" ubuntu@ec2-52-66-236-12.ap-south-1.compute.amazonaws.com
+- Install Node version 20.15.1
+- Git clone
