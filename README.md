@@ -48,7 +48,7 @@ Body
 - ssh -i "devTinder-secret.pem" ubuntu@ec2-52-66-236-12.ap-south-1.compute.amazonaws.com
 - Install Node version 20.15.1
 - Git clone
-- Front end
+- Frontend
     - npm install -> install dependecies
     - npm run build
     - sudo apt update
@@ -58,4 +58,5 @@ Body
     - copy code from dist(build files) to /var/www/html
     - sudo scp -r dist/* /var/www/html 
     - Enable port :80 of your instance
-    
+- Backend
+    - 
